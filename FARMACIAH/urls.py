@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from django.urls import path
 
-from . import views  # Importa las vistas desde tu aplicación actual
+from apps import views  # Importa las vistas desde tu aplicación actual
 
 urlpatterns = [
     path('admin/', admin.site.urls),

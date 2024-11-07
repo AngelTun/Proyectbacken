@@ -25,3 +25,5 @@ def registro(request):
             return render(request, 'registro.html', {
                 'form': form
             })
+def catalogo(request):
+    return render(request, 'catalogo.html')

@@ -1,4 +1,4 @@
-{%Load statics%}
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -86,7 +86,7 @@
     <div class="container">
         <!-- Producto 1 -->
         <div class="product-card">
-            <img src="{% url 'medicina1.jpg' %}" alt="Producto 1">
+            <img src="{% static 'img/Medicina1.jpg' %}" alt="Producto 1">
             <h2 class="product-name">Aliviax</h2>
             <p class="product-description">Alivia el dolor y reduce la fiebre. Ideal para resfriados comunes.</p>
             <p class="product-price">$76.00</p>
@@ -95,7 +95,7 @@
 
         <!-- Producto 2 -->
         <div class="product-card">
-            <img src="medicina2.jpg" alt="Producto 2">
+            <img src="{% static 'img/Medicina2.jpg' %}" alt="Producto 2">
             <h2 class="product-name">Complejo B</h2>
             <p class="product-description">Suplemento vitamínico para fortalecer el sistema inmune.</p>
             <p class="product-price">$156.50</p>
@@ -104,7 +104,7 @@
 
         <!-- Producto 3 -->
         <div class="product-card">
-            <img src="medicina3.jpg" alt="Producto 3">
+            <img src="{% static 'img/Medicina3.jpg' %}" alt="Producto 3">
             <h2 class="product-name">XL3</h2>
             <p class="product-description">Alivia los sintomas de la fiebre y el cuerpo cortado.</p>
             <p class="product-price">$54.00</p>
@@ -113,7 +113,7 @@
 
         <!-- Producto 4 -->
         <div class="product-card">
-            <img src="medicina4.jpg" alt="Producto 4">
+            <img src="{% static 'img/Medicina4.jpg' %}" alt="Producto 4">
             <h2 class="product-name">Pepto Bismol</h2>
             <p class="product-description">Alivia los malestares estomacales.</p>
             <p class="product-price">$69.99</p>

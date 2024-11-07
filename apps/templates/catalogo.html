@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            max-width: 250px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            border-radius: 5px;
+            height: 150px;
+            width: auto;
+        }
+        .product-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 15px 0 10px;
+            color: #333;
+        }
+        .product-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            min-height: 40px;
+        }
+        .product-price {
+            font-size: 18px;
+            color: #4CAF50;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .btn-comprar {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .btn-comprar:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Farmacia Los Heroes</h1>
+        <p>Productos en stock</p>
+    </div>
+
+    <div class="container">
+        <!-- Producto 1 -->
+        <div class="product-card">
+            <img src="medicina1.jpg" alt="Producto 1">
+            <h2 class="product-name">Aliviax</h2>
+            <p class="product-description">Alivia el dolor y reduce la fiebre. Ideal para resfriados comunes.</p>
+            <p class="product-price">$76.00</p>
+            <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product-card">
+            <img src="medicina2.jpg" alt="Producto 2">
+            <h2 class="product-name">Complejo B</h2>
+            <p class="product-description">Suplemento vitamínico para fortalecer el sistema inmune.</p>
+            <p class="product-price">$156.50</p>
+            <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product-card">
+            <img src="medicina3.jpg" alt="Producto 3">
+            <h2 class="product-name">XL3</h2>
+            <p class="product-description">Alivia los sintomas de la fiebre y el cuerpo cortado.</p>
+            <p class="product-price">$54.00</p>
+            <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="product-card">
+            <img src="medicina4.jpg" alt="Producto 4">
+            <h2 class="product-name">Pepto Bismol</h2>
+            <p class="product-description">Alivia los malestares estomacales.</p>
+            <p class="product-price">$69.99</p>
+            <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+    </div>
+
+</body>
+</html>
